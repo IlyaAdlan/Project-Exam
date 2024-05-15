@@ -1,0 +1,187 @@
+body {
+    background-image: linear-gradient(
+        to bottom,
+        #A99B9B 0%,
+        #A99B9B 60%
+    );
+}
+
+.libary {
+    max-width: 100%;
+    width: 100%;
+    height: 200px;
+    padding: 0;
+}
+
+.explore {
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -1%;
+}
+
+.explore p {
+    color: white;
+    font-size: 30px;
+}
+
+.entrance {
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+
+.text-container {
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    max-width: 100%;
+}
+
+
+.black-box p {
+    vertical-align: top;
+}
+
+.open-hours p{
+    margin-top: -20px;
+}
+
+.location,
+.open-hours,
+.food,
+.shop {
+    font-size: 15px;
+    text-align: center;
+    width: 50%;
+}
+
+.location h1,
+.open-hours h1,
+.food h1,
+.shop h1 {
+    background-color: black;
+    width: 91%;
+    color: white;
+    font-size: 14px;
+    padding: 3%;
+    height: 40px;
+}
+
+.black-box {
+    background-color: black;
+    color: white;
+    width: 91%;
+    height: 200px;
+    margin-left: 5%;
+}
+
+.accessibility {
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.information-container {
+    background-color: #D9D9D9;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+@media screen and (min-width: 768px) {
+    .libary {
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+    }
+
+    .entrance {
+        justify-content: center;
+        text-align: center;
+        font-size: 40px;
+        color: white;
+    }
+    
+.location,
+.open-hours,
+.food,
+.shop {
+    font-size: 24px;
+    text-align: center;
+    width: 25%;
+}
+
+.location h1,
+.open-hours h1,
+.food h1,
+.shop h1 {
+    background-color: black;
+    width: 91%;
+    color: white;
+    font-size: 34px;
+    padding: 3%;
+    height: 40px;
+}
+
+.location h1,
+.open-hours h1,
+.food h1,
+.shop h1 {
+    background-color: black;
+    width: 91%;
+    color: white;
+    font-size: 34px;
+    padding: 3%;
+    height: 40px;
+}
+
+.location p,
+.open-hours p,
+.food p,
+.shop p {
+    margin-top: 50px;
+}
+
+
+.black-box {
+    background-color: black;
+    color: white;
+    width: 91%;
+    height: 550px;
+    margin-left: 5%;
+}
+
+.accessibility {
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+.information-container {
+    background-color: #D9D9D9;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    height: 450px;
+    font-size: 30px;
+}
+
+.information-container h1{
+    padding: 30px;
+    margin-top: 0;
+}
+    
+}
+

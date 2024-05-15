@@ -1,17 +1,12 @@
 *{
     font-family: "Inria Sans", sans-serif;
-    max-width: 100%;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    max-width: 100%;
     margin: 0;
     overflow-x: hidden;
-    background-color: #717171; 
+    background-color: #717171;
 }
-
 
 .logo {
     max-width: 100%;
@@ -43,105 +38,6 @@ header {
     color: white;
     padding: 4px;
     
-}
-
-.top-museum {
-    max-width: 100%;
-    width: 100%;
-    height: 300px;
-}
-
-.dinasour {
-    width: 45%;
-    margin-left: 2%;
-    float: left;
-    height: 350px;
-}
-
-.wrapper {
-    margin-top: 3%;
-    width: 100%;
-    overflow: hidden;
-}
-
-.information {
-    float: right;
-    width: 50%;
-    height: 400px;
-}
-
-.information p {
-    color: white;
-    width: 90%;
-    max-width: 100%;
-    margin: 1%;
-    font-size: 10px;
-    display: flex;
-}
-
-.information h1{
-    font-size: 25px;
-    margin-left: 2%;
-    margin-top: 1%;
-}
-
-.explore {
-    background-color: black;
-    width: 100%;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.explore p {
-    color: white;
-    font-size: 30px;
-}
-
-.gallery-container {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    font-size: 0px;
-}
-
-.gallery-container img{
-    padding: 0;
-    flex-grow: 1;
-    max-width: 100%;
-    height: 100%;
-    width: calc(100% / 4);
-    object-fit: cover;   
-}
-
-.kid-staring {
-    width: 100%;
-    max-width: 100%;
-}
-
-.text-container {
-    justify-content: space-between;
-    display: flex;
-    max-width: 100%;
-}
-
-.for-kids,
-.for-teachers,
-.researchers {
-    font-size: 10px;
-    text-align: center;
-    width: 30%;
-}
-
-.for-kids h1,
-.for-teachers h1,
-.researchers h1 {
-    background-color: black;
-    width: 90%;
-    color: white;
-    font-size: 14px;
-    padding: 3%;
 }
 
 .footer-content {
@@ -204,47 +100,6 @@ header {
 }
 
 @media screen and (min-width: 768px) {
-    .top-museum {
-        max-width: 100%;
-        width: 100%;
-        height: auto;
-    }
-
-    .dinasour {
-        width: 45%;
-        margin-left: 2%;
-        float: left;
-        height: 80%;
-    }
-
-    .information {
-        float: right;
-        width: 50%;
-        height: 100%;
-    }
-    
-    .information p {
-        color: white;
-        width: 90%;
-        max-width: 100%;
-        margin: 1%;
-        font-size: 35px;
-        display: flex;
-    }
-    
-    .information h1{
-        font-size: 100px;
-        margin-left: 2%;
-        margin-top: 1%;
-    }
-
-    .text-container p{
-        justify-content: space-between;
-        display: flex;
-        max-width: 100%;
-        font-size: 30px;
-    }
-
     .nav {
         position: absolute;
         height: auto;
@@ -302,5 +157,3 @@ header {
         margin-bottom: -1.5%;
     }
 }
-
-

@@ -1,0 +1,63 @@
+
+.gallery-container {
+    flex-direction: column;
+    display: flex;
+    max-width: 100%;
+    margin-top: 5%;
+}
+
+.text-box {
+    background-color: #A99B9B;
+    color: white;
+    width: 90%;
+    font-size: 15px;
+    box-sizing: border-box;
+    padding: 1%;
+    text-align: center;
+    overflow: auto;
+    border-radius: 5%;
+    margin-top: 2%;
+}
+
+.gallery-content {
+    margin-bottom: 10%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.gallery-content img {
+    height: auto;
+    width: 100%;  
+}
+
+@media screen and (min-width: 768px) {
+    .text-box {
+        background-color: #A99B9B;
+        color: white;
+        width: 90%;
+        font-size: 35px;
+        box-sizing: border-box;
+        padding: 1%;
+        text-align: center;
+        overflow: auto;
+        border-radius: 5%;
+        margin-top: 2%;
+    }
+    
+    .gallery-content {
+        margin-bottom: 10%;
+        align-items: center;
+        display: flex;
+    }
+    
+    .gallery-content img {
+        height: 900px;
+        width: 90%;
+    }
+
+    .internship img {
+        height: 800px;
+    }
+}
