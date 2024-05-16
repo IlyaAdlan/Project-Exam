@@ -34,6 +34,16 @@ header {
     margin-bottom: -10px;
 }
 
+.nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav li {
+    margin-right: 10px;
+}
+
 
 .button-visit,
 .button-top-exhibitions {
@@ -42,7 +52,7 @@ header {
     border: none;
     color: white;
     padding: 4px;
-    
+    text-decoration: none;
 }
 
 .top-museum {
@@ -164,6 +174,10 @@ header {
     font-size: 0;
 }
 
+.button-left {
+    margin-left: 5px;
+}
+
 .button-contact,
 .button-contribute,
 .button-exhibitions {
@@ -174,15 +188,17 @@ header {
     padding: 6px 4px;
     border: none;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .button-privacy {
-    bottom: 35%;
+    bottom: 28%;
     right: 1%;
     position: absolute;
     max-width: 25%;
     font-size: 10px;
-    width: 30%;
+    width: 25%;
+    padding: 5px 10px;
 }
 
 .button-terms {
@@ -191,8 +207,10 @@ header {
     position: absolute;
     max-width: 25%;
     font-size: 10px;
-    width: 30%;
+    width: 25%;
+    padding: 5px 10px;
 }
+
 
 
 .button-privacy,
@@ -201,20 +219,24 @@ header {
     background-color: black;
     border: none;
     color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: -6px;
+    position: absolute;
 }
 
 @media screen and (min-width: 768px) {
     .top-museum {
         max-width: 100%;
         width: 100%;
-        height: auto;
+        height: 1000px;
     }
 
     .dinasour {
         width: 45%;
         margin-left: 2%;
         float: left;
-        height: 80%;
+        height: 1000px;
     }
 
     .information {
@@ -284,23 +306,22 @@ header {
         border: none;
     }
 
-    .left-buttons {
+    .button-left {
         display: flex;
-    }
-
-    .right-buttons {
-        position: absolute;
-        top: 0;
-        right: 0;
-        display: flex;
-        align-items: flex-end;
     }
     
     .button-privacy,
     .button-terms {
         padding: 15px 15px;
-        margin-bottom: -1.5%;
+        font-size: 18px;
+        margin-bottom: -20px;
     }
+
+    .button-privacy {
+        margin-bottom: 30px;
+    }
+
+    
 }
 
 
