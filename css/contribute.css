@@ -34,16 +34,8 @@
 
 @media screen and (min-width: 768px) {
     .text-box {
-        background-color: #A99B9B;
-        color: white;
-        width: 90%;
+        width: 80%;
         font-size: 35px;
-        box-sizing: border-box;
-        padding: 1%;
-        text-align: center;
-        overflow: auto;
-        border-radius: 5%;
-        margin-top: 2%;
     }
     
     .gallery-content {
@@ -54,7 +46,7 @@
     
     .gallery-content img {
         height: 900px;
-        width: 90%;
+        width: 80%;
     }
 
     .internship img {

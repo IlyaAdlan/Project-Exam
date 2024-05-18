@@ -39,7 +39,6 @@ header {
     margin-right: 10px;
 }
 
-
 .button-visit,
 .button-top-exhibitions {
     cursor: pointer;
@@ -107,7 +106,6 @@ header {
     padding: 5px 10px;
 }
 
-
 .button-privacy,
 .button-terms {
     cursor: pointer;
@@ -117,7 +115,6 @@ header {
     text-decoration: none;
     text-align: center;
     margin-bottom: -6px;
-   
 }
 
 @media screen and (min-width: 768px) {
@@ -181,5 +178,17 @@ header {
 
     .button-privacy {
         margin-bottom: -30px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .button-privacy {
+        margin-bottom: 6px;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .button-privacy {
+        margin-bottom: 30px;
     }
 }

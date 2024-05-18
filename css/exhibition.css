@@ -43,6 +43,7 @@
     display: flex;
     flex-wrap: wrap;
     max-width: 100%;
+    margin-bottom: 10%;
 }
 
 .black-box {
@@ -77,17 +78,15 @@
         text-decoration: underline;
     }
 
-    
     .black-box {
-        margin-top: 10px;
-        color: white;
-        padding: 10px 20px;
-        text-align: center;
-        background-color: #A99B9B;
-        border-radius: 10%;
-        font-size: 20px;
+        margin-left: 10%;
+        width: 80%;
+        font-size: 35px;
+        box-sizing: border-box;
+        padding: 1%;
+        overflow: auto;
+        margin-top: 2%;
     }
-
 }
 
 
