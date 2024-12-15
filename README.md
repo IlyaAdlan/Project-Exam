@@ -1,6 +1,5 @@
 # Oslo Museum
 
-![image](file:///C:/Users/ADNAN/Pictures/rainy_days_upper_half.png)
 
 A website for visiting Oslo Musem. Oslo Museum is where we’re committed to making science accessible to all.
 The aim of our museum is to create a space where everyone can experience the wonders of our discoveries and
